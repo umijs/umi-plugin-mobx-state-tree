@@ -14,6 +14,9 @@
     "path-is-root": "^0.1.0",
     "path-to-regexp": "^1.7.0"
   },
+  "scripts": {
+    "build": "umi-tools build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-mobx-state-tree"
@@ -35,5 +38,8 @@
     "browserFiles": [
       "src/runtime.js"
     ]
+  },
+  "devDependencies": {
+    "umi-tools": "^0.1.2"
   }
 }

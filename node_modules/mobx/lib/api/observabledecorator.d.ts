@@ -1,6 +1,0 @@
-import { IEnhancer } from "../internal";
-export declare type IObservableDecorator = {
-    (target: Object, property: string | symbol, descriptor?: PropertyDescriptor): void;
-    enhancer: IEnhancer<any>;
-};
-export declare function createDecoratorForEnhancer(enhancer: IEnhancer<any>): IObservableDecorator;
