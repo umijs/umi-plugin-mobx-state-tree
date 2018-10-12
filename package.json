@@ -1,6 +1,7 @@
 {
   "name": "umi-plugin-mobx-state-tree",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
+  "description": "use mobx-state-tree with umi@2.",
   "main": "./lib/index.js",
   "dependencies": {
     "globby": "^7.1.1",
