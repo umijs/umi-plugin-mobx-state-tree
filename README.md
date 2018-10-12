@@ -1,4 +1,4 @@
-# umi-plugin-mobx
+# umi-plugin-mobx-state-tree
 
 umi 的 mobx 插件。
 
