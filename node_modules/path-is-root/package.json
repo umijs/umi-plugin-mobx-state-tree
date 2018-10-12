@@ -1,0 +1,46 @@
+{
+  "name": "path-is-root",
+  "version": "0.1.0",
+  "description": "Check if a path is root",
+  "main": "src",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "nyc ava -v",
+    "test.watch": "nyc ava -vw",
+    "test.report": "nyc report --reporter=html && open ./coverage/index.html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "ava": {
+    "files": [
+      "test/*.spec.js"
+    ]
+  },
+  "nyc": {},
+  "keywords": [
+    "path",
+    "root",
+    "filesystem",
+    "file",
+    "system",
+    "fs"
+  ],
+  "author": "Rocky Wu <rocky823@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwu823/path-is-root.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rwu823/path-is-root/issues"
+  },
+  "homepage": "https://github.com/rwu823/path-is-root#readme"
+}
