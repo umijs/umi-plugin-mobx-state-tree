@@ -1,6 +1,6 @@
 # umi-plugin-mobx-state-tree
 
-umi 的 mobx 插件。
+umi@2 的 mobx 插件。
 
 约定加载 src/stores 下的所有文件(可通过设置 exclude 排除某些文件)
 
