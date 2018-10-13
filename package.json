@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-mobx-state-tree",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "use mobx-state-tree with umi@2.",
   "main": "./lib/index.js",
   "dependencies": {
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-mobx-state-tree"
+    "url": "https://github.com/umijs/umi-plugin-mobx-state-tree"
   },
-  "homepage": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-mobx-state-tree",
+  "homepage": "https://github.com/umijs/umi/umi-plugin-mobx-state-tree",
   "authors": [
     "xiaohuoni (https://github.com/xiaohuoni)"
   ],
   "bugs": {
-    "url": "https://github.com/umijs/umi/issues"
+    "url": "https://github.com/umijs/umi-plugin-mobx-state-tree/issues"
   },
   "license": "MIT",
   "files": [
