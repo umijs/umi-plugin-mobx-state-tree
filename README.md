@@ -67,3 +67,5 @@ export function config() {
 }
 ```
 这个配置可以通过runtime修改。
+
+[examples codesandbox](https://codesandbox.io/s/zw15r4yrrl)
