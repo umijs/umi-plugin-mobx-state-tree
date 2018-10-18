@@ -68,8 +68,6 @@ export function getGlobalStores(api, shouldImportDynamic) {
   const { paths, routes } = api;
   let stores = getStore(paths.absSrcPath, api);
   if (!shouldImportDynamic) {
-    console.log(11111111111122131232132321321321321);
-
     // 不做按需加载时，还需要额外载入 page 路由的 stores 文件
     stores = [...stores, ...getStoresWithRoutes(routes, api)];
     // 去重

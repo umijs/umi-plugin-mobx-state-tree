@@ -1,12 +1,13 @@
 {
   "name": "umi-plugin-mobx-state-tree",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1-beta.4",
   "description": "use mobx-state-tree with umi@2.",
   "main": "./lib/index.js",
   "dependencies": {
     "globby": "^7.1.1",
     "lodash.uniq": "^4.5.0",
     "mobx": "^5.5.0",
+    "mobx-devtools-mst": "^0.9.18",
     "mobx-react": "^5.2.8",
     "mobx-react-devtools": "^6.0.3",
     "mobx-state-tree": "^3.5.0",
