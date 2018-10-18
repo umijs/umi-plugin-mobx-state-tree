@@ -53,11 +53,12 @@ exclude:提供 src/stores 下的文件不被注册的功能，比如加上$前�
 
 
 ## /src/mobx.js
-可以通过src/mobx.js配置初始值和开启mobx调试工具
+可以通过src/mobx.js配置初始值和开启mobx-react-devtools调试工具
 ```
 export function config() {
   return {
     devTools: true,
+    mstTools: false,
     initStores: {
       list: {
         name: "init list name"
@@ -66,6 +67,8 @@ export function config() {
   };
 }
 ```
+可以通过设置``mstTools: true``开启mobx-devtools-mst，这个功能需要依赖[mobx浏览器调试工具](https://github.com/mobxjs/mobx-devtools/blob/master/README.md#features)使用。
+
 这个配置可以通过runtime修改。
 
 [examples codesandbox](https://codesandbox.io/s/zw15r4yrrl)
