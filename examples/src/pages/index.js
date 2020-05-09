@@ -1,6 +1,6 @@
 import { inject, observer } from 'mobx-react';
 import { Button, Rate, Row, Col } from 'antd';
-import Link from 'umi/link';
+import {Link} from 'umi';
 
 function App(props) {
   return (

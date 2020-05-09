@@ -1,7 +1,13 @@
 import { types } from "mobx-state-tree";
 import makeInspectable from 'mobx-devtools-mst';
+import { ApplyPluginsType } from 'umi';
+import { plugin } from './core/umiExports';
 
-const runtimeMobx = window.g_plugins.mergeConfig('mobx');
+const runtimeMobx = plugin.applyPlugins({
+  key: 'layout',
+  type: ApplyPluginsType.modify,
+  initialValue: {},
+}) || {};
 let config = { <%= MobxConfigure %> } || {}
 config = {...config,...(runtimeMobx.config || {})};
 
